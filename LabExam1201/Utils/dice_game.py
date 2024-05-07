@@ -1,4 +1,4 @@
-
+import random
 
 class DiceGame:
     def load_scores():
@@ -23,9 +23,22 @@ class DiceGame:
             logout()
 
     def logout():
-        main()
+        pass
     def show_topscores():
         pass
     
     def play_game():
-        pass
+        dice_rolls = random.randint(1,6)
+
+        print("You have rolled: ")
+        print(dice_rolls)
+        print("CPU have rolled: ")
+        print(dice_rolls)
+        print("You have rolled: ")
+        print(dice_rolls)
+        print("CPU have rolled: ")
+        print(dice_rolls)
+        print("You have rolled: ")
+        print(dice_rolls)
+        print("CPU have rolled: ")
+        
